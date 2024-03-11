@@ -1,0 +1,45 @@
+:root {
+    --bg-color: #fdd8e5;
+    --top-color: #7c78e5;
+    --bottom-color: #e59cc6;
+    --login-color: #e6d7f7;
+}
+body {
+    font-family: "Archivo Narrow", sans-serif;    
+}
+.container{
+    background: var(--bg-color);
+    padding: 100px 50px 100px 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.tarjetaborde {
+    background: white;
+    padding: 1px;
+    border-radius: 50px;
+}
+.tarjeta {
+    background: linear-gradient(to bottom, var(--top-color), var(--bottom-color));
+    padding: 20px;
+    margin: 10px;
+    border-radius: 50px;
+    }
+.login {
+    background: var(--login-color);
+    border-radius: 50px;
+    margin: 15px 15px 15px 15px;
+}
+.header{
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 150px; 
+    position: relative; 
+}
+.footer p {
+    margin: 0 1px; 
+}
